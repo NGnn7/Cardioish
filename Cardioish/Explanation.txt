@@ -1,0 +1,13 @@
+**Objective:**
+To contribute to the early diagnosis, accurate identification, and monitoring of heart diseases by enabling a deeper and more explainable analysis of ECG signals. To achieve this goal, the Cardioish language and the XFE (Explainable Feature Extraction) model are used together. The Cardioish language represents ECG leads with symbols that convey information about different regions of the heart. These symbols make region-specific electrical activities, associated with particular cardiac diseases and conditions, more understandable.
+
+**Early Detection and Diagnosis of Diseases:**
+The Cardioish language and XFE model aim to detect specific heart conditions early by identifying characteristic changes in ECG signals. For instance, using this language, diseases like myocardial infarction (heart attack) or atrial fibrillation (AF) can be diagnosed rapidly and regionally. Early diagnosis is critical, especially in preventing the progression of acute and chronic conditions.
+
+**Ensuring Explainability and Interpretability:**
+The XFE model used in this project extracts notable features from ECG signals in an explainable way. The symbols used in the Cardioish language represent which part of the ECG signal corresponds to which cardiac region and depict functional disorders in that region. This explainability allows doctors and specialists to understand not only the results but also the underlying reasons behind them.
+
+**Understanding Complex Diseases with Causal Cardiac Connections (CCCT):**
+The CCCT (Causal Cardiac Connectivity Theory) aims to analyze causal relationships and connections between different regions of the heart. How does an electrical change in a specific region of the heart affect other regions? By analyzing such connections and transitions, CCCT helps observe how disease spreads within the heart and which regions it disrupts. For understanding the effects of complex diseases, such as myocarditis (inflammation of the heart muscle), the CCCT with the Cardioish language provides a more detailed map.
+
+This project enables a better understanding of cardiac health by providing opportunities to learn more from ECG data, thereby aiding in the early detection of heart diseases, the development of personalized treatments, and strengthening clinical decision support systems.
