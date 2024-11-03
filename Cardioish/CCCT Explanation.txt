@@ -1,0 +1,24 @@
+Here is the code for implementing the Causal Cardiac Connectivity Theory (CCCT) model in Python, based on the previous steps and functions. This code will analyze causal relationships between different cardiac regions using the features extracted with tpat and visualize the results.
+
+
+Explanation of Each Part:
+Causal Connectivity Calculation (calculate_causal_connectivity):
+
+This function iterates through each pair of cardiac regions to estimate a causal relationship by training a KNN classifier. In practical settings, Granger causality or other causal inference methods may be used to improve accuracy.
+Loading and Preprocessing Data:
+
+The load_and_preprocess_data function loads .mat files, extracts features using the tpat function, and scales the feature matrix for consistency.
+Visualization of the Causal Matrix:
+
+plot_causal_matrix uses matplotlib to visualize the causal connectivity matrix, where each entry represents the causal influence of one region on another.
+Entropy Calculation:
+
+This calculates entropy for each cardiac region based on the causal matrix to measure the variability and complexity of each region's activity. This helps in understanding which regions show more dynamic connectivity patterns.
+Cardioish Symbol Explanation:
+
+An array cardioish defines the 12 regions, which are labeled in the causal connectivity visualization.
+Additional Considerations:
+Data Handling: Adjust filenames as necessary to match your dataset.
+Alternative Causality Methods: In real-world applications, consider using time-series causality methods, such as Granger causality or directed transfer function (DTF), for more accurate causal inference.
+Entropy Interpretation: Entropy values here offer insights into signal variability for each cardiac region, where higher entropy suggests more complex or variable connectivity patterns.
+This implementation should give a complete picture of CCCT's causal analysis in cardiac signals. Let me know if there’s anything more specific you would like to add!

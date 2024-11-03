@@ -1,0 +1,5 @@
+Key Points:
+tpat Function: Simulates the tpat MATLAB function to calculate feature vectors based on transitions.
+Feature Selection: Uses SelectFromModel with KNeighborsClassifier to select the most relevant features.
+Cross-Validation and Accuracy Calculation: Implements KNeighborsClassifier with different metrics and weights for exhaustive accuracy testing.
+Visualization: Transition matrix displayed using matplotlib.
